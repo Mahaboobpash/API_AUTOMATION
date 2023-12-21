@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-21T15:29:56 IST" name="Default suite" finished-at="2023-12-21T15:30:00 IST" duration-ms="4877">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T15:29:56 IST" name="Default test" finished-at="2023-12-21T15:30:00 IST" duration-ms="4877">
+      <class name="api.test.EmployeeTests_DataProvider">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.EmployeeTests_DataProvider@1a942c18]" started-at="2023-12-21T15:29:56 IST" name="setupData" finished-at="2023-12-21T15:29:56 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="getAllEmp()[pri:1, instance:api.test.EmployeeTests_DataProvider@1a942c18]" started-at="2023-12-21T15:29:56 IST" name="getAllEmp" finished-at="2023-12-21T15:30:00 IST" duration-ms="4638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmp -->
+      </class> <!-- api.test.EmployeeTests_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

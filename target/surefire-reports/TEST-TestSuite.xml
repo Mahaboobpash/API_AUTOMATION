@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.176" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Eclipse2023\API_AUTOMATION\target\test-classes;E:\Eclipse2023\API_AUTOMATION\target\classes;C:\Users\Mahaboob pasha\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Mahaboob pasha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Mahaboob pasha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Mahaboob pasha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\Mahaboob pasha\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahaboob pasha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahaboob pasha\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Mahaboob pasha\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Mahaboob pasha\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Mahaboob pasha\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Mahaboob pasha\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Mahaboob pasha\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahaboob pasha\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Mahaboob pasha\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Mahaboob pasha\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Mahaboob pasha\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Mahaboob pasha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Mahaboob pasha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Mahaboob pasha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Mahaboob pasha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Mahaboob pasha\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mahaboob pasha\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mahaboob pasha\AppData\Local\Temp\surefire8216322794584903366\surefirebooter-20231221152915795_3.jar C:\Users\Mahaboob pasha\AppData\Local\Temp\surefire8216322794584903366 2023-12-21T15-29-15_022-jvmRun1 surefire-20231221152915795_1tmp surefire_0-20231221152915795_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Eclipse2023\API_AUTOMATION\target\test-classes;E:\Eclipse2023\API_AUTOMATION\target\classes;C:\Users\Mahaboob pasha\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Mahaboob pasha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Mahaboob pasha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Mahaboob pasha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Mahaboob pasha\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\Mahaboob pasha\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Mahaboob pasha\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Mahaboob pasha\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Mahaboob pasha\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Mahaboob pasha\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Mahaboob pasha\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Mahaboob pasha\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Mahaboob pasha\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Mahaboob pasha\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Mahaboob pasha\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Mahaboob pasha\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Mahaboob pasha\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Mahaboob pasha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Mahaboob pasha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Mahaboob pasha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Mahaboob pasha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Mahaboob pasha\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Mahaboob pasha\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Mahaboob pasha\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Mahaboob pasha\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Mahaboob pasha\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mahaboob pasha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Eclipse2023\API_AUTOMATION"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mahaboob pasha\AppData\Local\Temp\surefire8216322794584903366\surefirebooter-20231221152915795_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.20+9-LTS-256"/>
+    <property name="user.name" value="Mahaboob pasha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Mahaboob pasha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAHABO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.20"/>
+    <property name="user.dir" value="E:\Eclipse2023\API_AUTOMATION"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_231\bin;C:\app\Mahaboobpasha\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Mahaboob pasha\AppData\Local\Microsoft\WindowsApps;C:\Users\Mahaboob pasha\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.20+9-LTS-256"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="getAllEmp" classname="api.test.EmployeeTests_DataProvider" time="6.51">
+    <system-out><![CDATA[************************* TEST STARTED *************************
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=2592000
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Thu, 21 Dec 2023 09:59:23 UTC
+Display: staticcontent_sol, orig_site_sol
+Response: 200
+Server: Apache
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Hit ds;mm;50851011b4bdbba5d4a9e6d8cab4c54f;2-133674-15;33c2c988-9648-45be-599f-8d31accab8ac
+X-Middleton-Display: staticcontent_sol, orig_site_sol
+X-Middleton-Response: 200
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: orig
+Transfer-Encoding: chunked
+
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        {
+            "id": 2,
+            "employee_name": "Garrett Winters",
+            "employee_salary": 170750,
+            "employee_age": 63,
+            "profile_image": ""
+        },
+        {
+            "id": 3,
+            "employee_name": "Ashton Cox",
+            "employee_salary": 86000,
+            "employee_age": 66,
+            "profile_image": ""
+        },
+        {
+            "id": 4,
+            "employee_name": "Cedric Kelly",
+            "employee_salary": 433060,
+            "employee_age": 22,
+            "profile_image": ""
+        },
+        {
+            "id": 5,
+            "employee_name": "Airi Satou",
+            "employee_salary": 162700,
+            "employee_age": 33,
+            "profile_image": ""
+        },
+        {
+            "id": 6,
+            "employee_name": "Brielle Williamson",
+            "employee_salary": 372000,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        {
+            "id": 7,
+            "employee_name": "Herrod Chandler",
+            "employee_salary": 137500,
+            "employee_age": 59,
+            "profile_image": ""
+        },
+        {
+            "id": 8,
+            "employee_name": "Rhona Davidson",
+            "employee_salary": 327900,
+            "employee_age": 55,
+            "profile_image": ""
+        },
+        {
+            "id": 9,
+            "employee_name": "Colleen Hurst",
+            "employee_salary": 205500,
+            "employee_age": 39,
+            "profile_image": ""
+        },
+        {
+            "id": 10,
+            "employee_name": "Sonya Frost",
+            "employee_salary": 103600,
+            "employee_age": 23,
+            "profile_image": ""
+        },
+        {
+            "id": 11,
+            "employee_name": "Jena Gaines",
+            "employee_salary": 90560,
+            "employee_age": 30,
+            "profile_image": ""
+        },
+        {
+            "id": 12,
+            "employee_name": "Quinn Flynn",
+            "employee_salary": 342000,
+            "employee_age": 22,
+            "profile_image": ""
+        },
+        {
+            "id": 13,
+            "employee_name": "Charde Marshall",
+            "employee_salary": 470600,
+            "employee_age": 36,
+            "profile_image": ""
+        },
+        {
+            "id": 14,
+            "employee_name": "Haley Kennedy",
+            "employee_salary": 313500,
+            "employee_age": 43,
+            "profile_image": ""
+        },
+        {
+            "id": 15,
+            "employee_name": "Tatyana Fitzpatrick",
+            "employee_salary": 385750,
+            "employee_age": 19,
+            "profile_image": ""
+        },
+        {
+            "id": 16,
+            "employee_name": "Michael Silva",
+            "employee_salary": 198500,
+            "employee_age": 66,
+            "profile_image": ""
+        },
+        {
+            "id": 17,
+            "employee_name": "Paul Byrd",
+            "employee_salary": 725000,
+            "employee_age": 64,
+            "profile_image": ""
+        },
+        {
+            "id": 18,
+            "employee_name": "Gloria Little",
+            "employee_salary": 237500,
+            "employee_age": 59,
+            "profile_image": ""
+        },
+        {
+            "id": 19,
+            "employee_name": "Bradley Greer",
+            "employee_salary": 132000,
+            "employee_age": 41,
+            "profile_image": ""
+        },
+        {
+            "id": 20,
+            "employee_name": "Dai Rios",
+            "employee_salary": 217500,
+            "employee_age": 35,
+            "profile_image": ""
+        },
+        {
+            "id": 21,
+            "employee_name": "Jenette Caldwell",
+            "employee_salary": 345000,
+            "employee_age": 30,
+            "profile_image": ""
+        },
+        {
+            "id": 22,
+            "employee_name": "Yuri Berry",
+            "employee_salary": 675000,
+            "employee_age": 40,
+            "profile_image": ""
+        },
+        {
+            "id": 23,
+            "employee_name": "Caesar Vance",
+            "employee_salary": 106450,
+            "employee_age": 21,
+            "profile_image": ""
+        },
+        {
+            "id": 24,
+            "employee_name": "Doris Wilder",
+            "employee_salary": 85600,
+            "employee_age": 23,
+            "profile_image": ""
+        }
+    ],
+    "message": "Successfully! All records has been fetched."
+}
+Message is : Successfully! All records has been fetched.
+Status code : 200
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getEmp" classname="api.test.EmployeeTests_DataProvider" time="1.191">
+    <system-out><![CDATA[Employee ID is (getEmp): 161
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=2592000
+Content-Type: application/json
+Date: Thu, 21 Dec 2023 09:59:26 UTC
+Display: staticcontent_sol, orig_site_sol
+Response: 200
+Server: Apache
+Vary: Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol, orig_site_sol
+X-Middleton-Response: 200
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: orig
+Content-Length: 83
+
+{
+    "status": "success",
+    "data": null,
+    "message": "Successfully! Record has been fetched."
+}
+Message is : Successfully! Record has been fetched.
+Status code : 200
+]]></system-out>
+  </testcase>
+  <testcase name="updateEmp[Navee, 90000, 28](1)" classname="api.test.EmployeeTests_DataProvider" time="2.427">
+    <system-out><![CDATA[Employee ID is: 133
+HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=86400
+Content-Type: application/json
+Date: Thu, 21 Dec 2023 09:59:28 GMT
+Display: staticcontent_sol, orig_site_sol
+Expires: Fri, 22 Dec 2023 09:59:28 GMT
+Response: 200
+Server: Apache
+Vary: Accept-Encoding,Origin
+X-Endurance-Cache-Level: 2
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol, orig_site_sol
+X-Middleton-Response: 200
+X-Nginx-Cache: WordPress
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Sol: orig
+Content-Length: 123
+
+{
+    "status": "success",
+    "data": {
+        "name": "Navee",
+        "salary": "90000",
+        "age": "28"
+    },
+    "message": "Successfully! Record has been updated."
+}
+Message is : Successfully! Record has been updated.
+Status code : 200
+]]></system-out>
+  </testcase>
+</testsuite>
