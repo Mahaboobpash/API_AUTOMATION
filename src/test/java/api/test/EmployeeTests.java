@@ -1,5 +1,6 @@
 package api.test;
 
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -33,6 +34,7 @@ public class EmployeeTests {
 		 System.out.println("Message is : "+msg);
 		Assert.assertEquals(response.getStatusCode(), 200);
 		System.out.println("Status code : "+response.getStatusCode());
+		Reporter.log("Status code : "+response.getStatusCode(),true);
 	}
 	
 	@Test(priority=2)
