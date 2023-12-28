@@ -1,0 +1,17 @@
+{
+"firstName" : "Naveen",
+"lastName"  : "Kumar",
+"address"   : 
+  [
+	{
+		"street" : "MG Road",
+		"city"   : "Bangalore",
+		"state"  : "KA"
+	}
+	{
+		"street" : "Trinity Road",
+		"city"   : "Mumbai",
+		"state"  : "MH"
+	}
+  ]
+}
