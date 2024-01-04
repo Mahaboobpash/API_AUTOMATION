@@ -2,6 +2,7 @@ package routes.properties;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Map;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -22,9 +23,12 @@ public class JsonFileReader {
 		System.out.println("************lastName******** : "+lastName);
 		
 		JSONArray array=(JSONArray) empJsonObj.get("address");
+//		Map.of("key","val");
+//		List.of(array);
 		
 		for (int i = 0; i < array.size(); i++) {
 			JSONObject address = (JSONObject) array.get(i);
+		
 			System.out.println("#############  List of address of : "+i);
 			String street=(String) address.get("street");
 			String city=(String) address.get("city");

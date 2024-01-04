@@ -7,10 +7,6 @@ public class Lombok_Test {
 		System.out.println("********** fetch age ************** : "+data.getAge());
 		System.out.println("********** fetch city ************** : "+data.getCity());
 		System.out.println("********** fetch name ************** : "+data.getName());
-	
-		
-		
-
 	}
 
 }
