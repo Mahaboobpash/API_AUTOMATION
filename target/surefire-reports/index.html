@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="api.test.EmployeeTests_DataProvider" class="method navigator-link" hash-for-method="updateEmp(Navee, 90000, 28)">updateEmp(Navee, 90000, 28)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -111,11 +125,6 @@
                         <a href="#" panel-name="suite-Suite" title="api.test.EmployeeTests_DataProvider" class="method navigator-link" hash-for-method="getEmp">getEmp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="api.test.EmployeeTests_DataProvider" class="method navigator-link" hash-for-method="updateEmp(Navee, 90000, 28)">updateEmp(Navee, 90000, 28)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -128,6 +137,40 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.EmployeeTests_DataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateEmp(Navee, 90000, 28)">
+                  </a> <!-- updateEmp(Navee, 90000, 28) -->
+                  <span class="method-name">updateEmp</span>
+                  <span class="parameters">(Navee,90000,28)</span>
+                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at api.test.EmployeeTests_DataProvider.updateEmp(EmployeeTests_DataProvider.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 34 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -146,14 +189,6 @@
                   <a name="getEmp">
                   </a> <!-- getEmp -->
                   <span class="method-name">getEmp</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="updateEmp(Navee, 90000, 28)">
-                  </a> <!-- updateEmp(Navee, 90000, 28) -->
-                  <span class="method-name">updateEmp</span>
-                  <span class="parameters">(Navee,90000,28)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,20 +249,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getAllEmp')
 data.setCell(0, 2, 'api.test.EmployeeTests_DataProvider')
-data.setCell(0, 3, 6496);
+data.setCell(0, 3, 9066);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'updateEmp')
 data.setCell(1, 2, 'api.test.EmployeeTests_DataProvider')
-data.setCell(1, 3, 2367);
+data.setCell(1, 3, 3358);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'getEmp')
 data.setCell(2, 2, 'api.test.EmployeeTests_DataProvider')
-data.setCell(2, 3, 1155);
+data.setCell(2, 3, 305);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -269,15 +304,17 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">getAllEmp</span>
-                <span class="method-start">256 ms</span>
+                <span class="method-start">148 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getEmp</span>
-                <span class="method-start">6760 ms</span>
+                <span class="method-start">9221 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">updateEmp(Navee, 90000, 28)</span>
-                <span class="method-start">7949 ms</span>
+                <span class="method-start">9581 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
